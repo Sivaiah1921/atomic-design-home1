@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from '../../Atoms/Image/Image'
 
-function HeaderImage({srcImg,altText}) {
+const HeaderImage = ({srcImg,altText}) =>{
     return (
         <div>
             <Image srcImg={srcImg} altText={altText} />

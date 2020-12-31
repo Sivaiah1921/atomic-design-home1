@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
  * renders the poster list of data using this PosterShowCollection Component
  * @param {Object} param0 
  */
-function PosterShowCollection({item}) {
+const PosterShowCollection = ({item}) =>{
     return (
         <>
             <Image className="posterShow" srcImg={`./images/${item}.png`} altText="no-image" />

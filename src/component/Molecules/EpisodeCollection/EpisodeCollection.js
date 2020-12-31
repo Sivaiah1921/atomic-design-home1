@@ -8,7 +8,7 @@ import EpisodeContent from '../EpisodeContent/EpisodeContent'
  * renders the Episode list of data using this EpisodeCollection Component
  * @param {Object} param0 
  */
-function EpisodeCollection({item}) {
+const EpisodeCollection = ({item}) =>{
 
     return (
         <>

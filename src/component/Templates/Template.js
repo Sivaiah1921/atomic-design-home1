@@ -8,7 +8,7 @@ import './Template.css'
  * Discovery home page Template component
  */
 
-function Template() { 
+const Template = () =>{ 
     return (
         <div className="main">
             <div className="hero-wrapper" >

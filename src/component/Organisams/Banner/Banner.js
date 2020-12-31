@@ -6,7 +6,7 @@ import BannerImage from '../../Molecules/BannerContent/BannerImage'
 /**
  * Banner Component
  */
-function Banner() {
+const Banner = () =>{
     return (
         <>
         <div className="bannerStyles">

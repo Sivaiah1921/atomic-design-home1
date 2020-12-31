@@ -13,7 +13,7 @@ import './ContentArea.css'
 /**
  * ContentArea component
  */
-function ContentArea() {
+const ContentArea = () =>{
     return (
         <div>
             <EpisodeContent className="episodeContent" text="Continue Watching" />

@@ -6,7 +6,7 @@ import HeaderImage from '../../Molecules/HeaderContent/HeaderImage'
 /**
  * Header component render the header links
  */
-function Header() { 
+const Header = () =>{ 
     return (
         <div className="header">
             <Link to="/home" className="li tlc"><HeaderImage srcImg="./images/Tlc.svg" altText="tlc"/></Link>
