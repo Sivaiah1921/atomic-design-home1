@@ -1,7 +1,7 @@
 import React from 'react'
 import './Banner.css'
-import Image from '../../Atoms/Image/Image'
-import Heading from '../../Atoms/Heading/Heading'
+import BannerHeading from '../../Molecules/BannerContent/BannerHeading'
+import BannerImage from '../../Molecules/BannerContent/BannerImage'
 
 /**
  * Banner Component
@@ -10,10 +10,12 @@ function Banner() {
     return (
         <>
         <div className="bannerStyles">
-            <Image srcImg="./images/americaBanner.png" altText="no-image" className="bannerImage" />
-             <Heading text="Season Premiere" className="sesson" tagName="span"/>
-             <Heading tagName="span" className="bannerSpan" text="Lorem ipsum dolor sit amet, consecteturadipae"/> 
-            <button><Image srcImg="./images/playbutton.svg" altText="no-image"/>Wactch Now</button>
+          
+             <BannerImage srcImg="./images/americaBanner.png" altText="no-image" className="bannerImage"  />
+             <BannerHeading text="Season Premiere" className="sesson" tagName="span"/>
+             <BannerHeading tagName="span" className="bannerSpan" text="Lorem ipsum dolor sit amet, consecteturadipae" />
+             <button><BannerImage srcImg="./images/playbutton.svg" altText="no-image"/>watch Now</button> 
+         
         </div>
         <div className="slider-show">
             <span></span>
